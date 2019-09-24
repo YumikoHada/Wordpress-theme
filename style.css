@@ -1,0 +1,106 @@
+/*
+Theme Name: Travel AegeanSea
+Theme URI: http://wordpress.org/
+Description: Test Blog
+Version: 1.6
+Author: Yumiko Hada
+Author URI: http://yumikohada.com
+Tags: powerful, cheat, sheet
+*/
+
+#header { 
+	background-image: url("images/aegeansea.jpeg");
+	background-size: cover;
+	height: 20rem;
+}
+#logo img{
+	width: 10vw;
+	height: 10vw;
+	margin: 10px;
+}
+#logotitle {
+	text-decoration: none;
+	color: #343a40;
+}
+#menu {
+	margin-top: 20px;
+	position: relative; /* sidebarを固定させるため　*/
+}
+#menu ul, #sidebar ul, .menu-footer-menu-container ul {
+	list-style: none;
+}
+#menu ul li, .menu-footer-menu-container ul li{
+	display: inline-block;
+	margin-right: 1rem;
+}
+#menu ul li a, #sidebarwidg ul li a, .card-title {
+	color: #343a40;
+}
+.card {
+	float: left;
+	margin: 15px;
+	height: 23rem;
+}
+.card-img-top {
+	height: 180px !important;
+}
+.widget {
+	margin: 20px 0;
+}
+.widget ul{
+	list-style: none;
+}
+#contents img {
+	max-width: 100%;
+	height: auto;
+}
+.screen-reader-text {
+	display: none;
+}
+.pagination {
+	clear: both;
+}
+.nav-links {
+	margin: auto;
+}
+.entry-title {
+	float: left;
+}
+.entry-date {
+	float: right;
+	font-size: larger;
+}
+.entry-thumbnail ,.entry-content {
+	clear: both;
+	margin: 20px
+}
+.category-tag-links {
+	clear: both;
+}
+article {
+	margin-bottom: 40px;
+}
+.horizonbar {
+	clear: both;
+}
+.wrapper {
+    min-height: 100vh;
+    position: relative;/*←相対位置*/
+    padding-bottom: 120px;/*←footerの高さ*/
+    box-sizing: border-box;/*←全て含めてmin-height:100vhに*/
+}
+#footer {
+    width: 100%;
+    padding: 30px 0;
+	position: absolute;/*←絶対位置*/
+	bottom: 0; /*下に固定*/
+}
+.nav-previous .size-small {
+	float: left;
+}
+.nav-next .size-small {
+	float: right;
+}
+#copyright {
+	 text-align: right;
+}
